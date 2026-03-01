@@ -1,4 +1,4 @@
-# 🛡️ Aegis — AI Safety Middleware
+#  Aegis — AI Safety Middleware
 
 **Aegis** is a real-time **AI safety layer** that protects students and everyday users from accidentally leaking sensitive information while interacting with AI tools.
 
@@ -6,20 +6,20 @@ Instead of replacing AI assistants, Aegis works as a **protective middleware** t
 
 ---
 
-## 🚨 Problem Statement
+##  Problem Statement
 
 AI adoption is growing rapidly, but users unknowingly share:
 
-- 🔑 Passwords and credentials  
-- 📧 Personal information (emails, phone numbers, IDs)  
-- 📄 Sensitive documents  
-- ⚠️ Risky or unsafe requests  
+-  Passwords and credentials  
+-  Personal information (emails, phone numbers, IDs)  
+-  Sensitive documents  
+-  Risky or unsafe requests  
 
 Currently, **no safety layer exists between users and AI systems**.
 
 ---
 
-## ✅ Our Solution
+##  Our Solution
 
 Aegis secures human-AI interaction by:
 
@@ -29,11 +29,11 @@ Aegis secures human-AI interaction by:
 - Screening AI responses for harmful output
 - Educating users about safe AI practices
 
-👉 Users continue using AI normally — **but safely**.
+ Users continue using AI normally — **but safely**.
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. User types a prompt on any AI platform.
 2. Aegis browser extension intercepts the prompt locally.
@@ -48,44 +48,44 @@ Aegis secures human-AI interaction by:
 
 ---
 
-## 🧠 Key Features
+##  Key Features
 
-- 🔒 **Local Prompt Protection**
-- 🤖 **Context-Aware AI Reasoning**
-- ✏️ **Automatic Prompt Rewriting**
-- 🌐 **Works with Any AI Chatbot**
-- 🛡️ **AI Response Safety Filtering**
-- 🎓 **Real-Time User Education**
-
----
-
+-  **Local Prompt Protection**
+-  **Context-Aware AI Reasoning**
+-  **Automatic Prompt Rewriting**
+-  **Works with Any AI Chatbot**
+-  **AI Response Safety Filtering**
+-  **Real-Time User Education**
 
 ---
 
-## 🧩 Tech Stack
 
-### 🖥 Frontend (Demo Interface)
+---
+
+##  Tech Stack
+
+###  Frontend (Demo Interface)
 - Streamlit (Model Output Visualization)
 - HTML / CSS / JavaScript (Browser Extension UI)
 
-### ⚙️ Backend
+###  Backend
 - Python
 - spaCy (NLP Processing)
 - LLaMA / Local LLM
 - FastAPI (Production API - Planned)
 
-### 🔐 Detection & Security
+###  Detection & Security
 - Regex-based PII Detection
 - Entropy-based Secret Detection
 - Risk Scoring Engine
 
-### 📚 RAG System
+###  RAG System
 - FAISS / ChromaDB
 - Policy Knowledge Retrieval
 
 ---
 
-## 💻 Usage of AMD Products / Solutions
+##  Usage of AMD Products / Solutions
 
 - Optimized for **AMD Ryzen CPUs**
 - Cloud-hosted inference for low-end laptops
@@ -94,7 +94,7 @@ Aegis secures human-AI interaction by:
 
 ---
 
-## 🖥 Demo Notice
+##  Demo Notice
 
 The current **Streamlit interface** is used only for demonstrating model outputs and safety reasoning.
 
@@ -106,7 +106,7 @@ In the production version:
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ```bash
 git clone https://github.com/your-username/aegis.git
